@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS test_db.TB_ROLE
+(
+  code TINYINT UNSIGNED NOT NULL,
+  name VARCHAR(45)      NOT NULL,
+
+  PRIMARY KEY (code)
+);
